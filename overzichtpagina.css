@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="filterpagina.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+
+<body>
+    <a href="#" id="logo"></a>
+
+    <ul class="navigation">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">verhalen</a></li>
+        <li><a href="#">Favorieten</a></li>
+        <li><a href="#">Mijn account</a></li>
+    </ul>
+
+
+    <div class="container">
+        <input type="radio" id="blue" name="color" />
+        <label for="blue">Genre</label>
+        <input type="radio" id="red" name="color" />
+        <label for="red">Nieuw</label>
+        <input type="radio" id="green" name="color" />
+        <label for="green">Waardering</label>
+        <input type="radio" id="reset" name="color" />
+        <label for="reset">Datum</label>
+
+
+
+        <div class="tileblue">Drama</div>
+        <div class="tilered">Lange Frans</div>
+        <div class="tileblue">Romantisch</div>
+        <div class="tilegreen">Oud Testament</div>
+        <div class="tileblue">Fantasie</div>
+        <div class="tilered">Recept</div>
+        <div class="tilered">Bejaard</div>
+        <div class="tilegreen">Western</div>
+        <div class="tileblue">Non-fictie</div>
+        <div class="tilegreen">Neerslachtig</div>
+        <div class="tilered">Jules Deelder</div>
+        <div class="tilegreen">Dialoog</div>
+        <div class="tileblue">Humor</div>
+        <div class="tileblue">Spannend</div>
+        <div class="tilegreen">Terugspoelen</div>
+        <div class="tilered">Paranoia</div>
+
+    </div>
+</body>
+
+</html>
